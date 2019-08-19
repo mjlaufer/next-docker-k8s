@@ -1,0 +1,29 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "plugins": ["react-hooks"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-floating-promises": "error",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "@typescript-eslint/prefer-for-of": "error",
+    "@typescript-eslint/promise-function-async": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

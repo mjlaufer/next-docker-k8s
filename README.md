@@ -1,23 +1,15 @@
 # next-docker-k8s
 
-## Available Scripts
+## Useful Scripts
 
 ### `npm run dev`
 
 Runs the app in the development mode.<br> Open [http://localhost:3000](http://localhost:3000) to
 view it in the browser.
 
-### `npm run build`
-
-Builds the app for production
-
-### `npm start`
-
-Runs the production build of the app.
-
 ### `docker-compose up -d`
 
-Runs the Next.js Node server (to serve dynamic pages) and the Nginx web server (to serve static
+Runs the production builds of the Next.js Node server (to serve dynamic pages) and the Nginx web server (to serve static
 assets). Open [http://localhost:8080](http://localhost:8080) to view the app in the browser.
 
 ---
@@ -31,10 +23,6 @@ Builds, (re)creates, starts, and attaches to containers for a service.
 Options:
 
 `--detach, -d` : Detached mode: Run containers in the background, print new container names.
-Incompatible with `--abort-on-container-exit`.
-
-`--exit-code-from SERVICE` : Return the exit code of the selected service container. Implies
-`--abort-on-container-exit`.
 
 ### `docker-compose down [OPTIONS]`
 
