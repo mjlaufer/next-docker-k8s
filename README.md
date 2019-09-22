@@ -23,6 +23,7 @@ Builds, (re)creates, starts, and attaches to containers for a service.
 Options:
 
 `--detach, -d` : Detached mode: Run containers in the background, print new container names.
+
 `--build` : Build images before starting containers.
 
 ### `docker-compose down [OPTIONS]`

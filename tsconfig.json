@@ -15,7 +15,8 @@
     "baseUrl": ".",
     "paths": {
       "test-utils": ["utils/test-utils"]
-    }
+    },
+    "allowJs": true
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "pages/**/*.tsx", "components/**/*.tsx", "utils/**/*.ts"]
