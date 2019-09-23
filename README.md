@@ -36,11 +36,13 @@ Stops containers and removes containers, networks, volumes, and images created b
 
 ## Docker Commands
 
-### `docker build [OPTIONS] .`
+### `docker build [OPTIONS] PATH`
 
-Builds the production-ready Nginx image from the Dockerfile.
+Build an image from a Dockerfile.
 
 Options:
+
+`--no-cache` : Do not use cache when building the image
 
 `--tag, -t` : Name and optionally a tag in the ‘name:tag’ format
 
