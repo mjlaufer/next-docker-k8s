@@ -79,4 +79,24 @@ the container (Nginx's default port) to port 8080 of the host machine)
 
 ---
 
+## Kubernetes (kubectl) Commmands
+
+### `kubectl apply -f FILENAME`
+
+Apply a configuration to a resource (e.g., pod or deployment object). The resource will be created if it doesn't exist yet.
+
+### `kubectl get RESOURCE_TYPE [-o wide]`
+
+Display resources (e.g., pods, deployments, or services).
+
+### `kubectl delete [-f FILENAME] | RESOURCE_TYPE [NAME | --all]`
+
+Delete resources
+
+### `kubectl set image RESOURCE_TYPE/NAME CONTAINER_NAME=NEW_IMAGE`
+
+Update existing container image(s) of resources
+
+---
+
 ## Deployment
