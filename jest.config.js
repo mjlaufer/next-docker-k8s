@@ -1,6 +1,6 @@
 module.exports = {
     preset: 'ts-jest',
-    moduleDirectories: ['node_modules', 'utils'],
+    moduleDirectories: ['node_modules', 'src/utils'],
     testPathIgnorePatterns: ['/node_modules/', '/.next/'],
     verbose: true,
     globals: {

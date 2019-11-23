@@ -3,7 +3,10 @@
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "skipLibCheck": true,
+    "removeComments": true,
     "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -14,10 +17,10 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "test-utils": ["utils/test-utils"]
+      "test-utils": ["src/utils/test-utils"]
     },
     "allowJs": true
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "pages/**/*.tsx", "components/**/*.tsx", "utils/**/*.ts"]
+  "include": ["next-env.d.ts", "src/**/*.ts", "src/**/*.tsx"]
 }
