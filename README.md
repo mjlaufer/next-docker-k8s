@@ -1,6 +1,6 @@
 # next-docker-k8s
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/mjlaufer/next-docker-k8s.svg)](https://greenkeeper.io/)
+
 
 ## Useful Scripts
 
